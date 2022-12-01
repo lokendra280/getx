@@ -7,6 +7,7 @@ import 'package:getx/dialog_box.dart';
 import 'package:getx/route_navigation.dart';
 
 import 'State_Management/seperate_business_logic_to_ui.dart';
+import 'State_Management/simple_State_manager.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SeparateBusinessLogic(),
+      home: SimpleStateManagement(),
       // Scaffold(
       //   appBar: AppBar(
       //     title: Text("Snack Bar"),
